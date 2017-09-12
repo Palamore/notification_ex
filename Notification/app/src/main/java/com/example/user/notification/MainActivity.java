@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 new Runnable() {
                     @Override
                     public void run() {
+                            Thread.sleep(5000);
                     onSimpleNotification();
 
                     }
